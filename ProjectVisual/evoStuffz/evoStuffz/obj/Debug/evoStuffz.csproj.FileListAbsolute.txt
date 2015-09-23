@@ -1,0 +1,6 @@
+c:\users\oswald\documents\visual studio 2015\Projects\evoStuffz\evoStuffz\bin\Debug\evoStuffz.exe.config
+C:\Users\Oswald\documents\visual studio 2015\Projects\evoStuffz\evoStuffz\bin\Debug\evoStuffz.exe
+C:\Users\Oswald\documents\visual studio 2015\Projects\evoStuffz\evoStuffz\bin\Debug\evoStuffz.pdb
+C:\Users\Oswald\documents\visual studio 2015\Projects\evoStuffz\evoStuffz\obj\Debug\evoStuffz.csprojResolveAssemblyReference.cache
+C:\Users\Oswald\documents\visual studio 2015\Projects\evoStuffz\evoStuffz\obj\Debug\evoStuffz.exe
+C:\Users\Oswald\documents\visual studio 2015\Projects\evoStuffz\evoStuffz\obj\Debug\evoStuffz.pdb
