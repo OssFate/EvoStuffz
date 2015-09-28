@@ -57,6 +57,14 @@ namespace evoStuffz
             return ret + " ]";
         }
 
+		public double getValueIndex(int i){
+			return m_value [i];
+		}
+
+		public void setValueIndex(int i, double _value){
+			m_value [i] = _value;
+		}
+
         public Double[] getValue()
         {
             return this.m_value;

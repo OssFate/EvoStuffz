@@ -6,15 +6,15 @@ namespace evoStuffz
     {
         static void Main(string[] args)
         {
-            //int[] bound = { -500, 500 };
+            int[] bound = { -100, 100 };
             Poblacion mahPPL = new Poblacion(50);
-            //mahPPL.init(100,10,bound);
-            //mahPPL.showPPL();
+            mahPPL.init(20,3,bound);
+            mahPPL.showPPL();
 
             //float[] values = { 1, 2, 3 };
 
             //Console.WriteLine("Media: " + MahMath.Media(values) + " - Desviacion: " + MahMath.Desviacion(values, MahMath.Media(values)));
-            Console.ReadKey();
+            //Console.ReadKey();
         }
 
         /*

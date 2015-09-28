@@ -10,8 +10,9 @@ namespace evoStuffz
     {
 
         private Individuo[] m_ind;
+		private int pos;
         
-        public Poblacion() { }
+		public Poblacion(int tam, int _pos) { m_ind = new Individuo[tam]; pos = _pos; }
 
         public Poblacion(int tam)
         {
@@ -34,6 +35,16 @@ namespace evoStuffz
                 m_ind[i].init(size,bound);
             }
         }
+
+		public Individuo getIndi(int index){
+			return m_ind [index];
+		}
+
+		public void addIndis(Individuo[] ind){
+			m_ind [pos] = ind [0];
+			m_ind [pos + 1] = ind [1];
+			pos += 2;
+		}
 
         public void showPPL()
         {
