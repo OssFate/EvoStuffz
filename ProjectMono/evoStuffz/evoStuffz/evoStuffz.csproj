@@ -46,6 +46,7 @@
     <Compile Include="Stuffz\MahMath.cs" />
     <Compile Include="Stuffz\Poblacion.cs" />
     <Compile Include="Stuffz\RNG.cs" />
+    <Compile Include="Interfaces\Mutacion.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

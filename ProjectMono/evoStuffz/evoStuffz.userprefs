@@ -1,1 +1,16 @@
-﻿<Properties StartupItem="evoStuffz/evoStuffz.csproj" />
+﻿<Properties StartupItem="evoStuffz/evoStuffz.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="evoStuffz/Program.cs">
+    <Files>
+      <File FileName="evoStuffz/Program.cs" Line="13" Column="4" />
+      <File FileName="evoStuffz/Stuffz/CruceYMutacion.cs" Line="1" Column="1" />
+      <File FileName="evoStuffz/Stuffz/RNG.cs" Line="1" Column="1" />
+      <File FileName="evoStuffz/Algorithms/Hill.cs" Line="1" Column="1" />
+      <File FileName="evoStuffz/Algorithms/HillEvo.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
