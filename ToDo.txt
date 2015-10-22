@@ -1,0 +1,9 @@
+//To Do List
+
+- Add functions
+- Add mutation with gaussian and powerlaw
+- Add Selection Algorithms
+- Create usable HillEvo
+- Fix all inconsistencies
+
+- Everything now for bits

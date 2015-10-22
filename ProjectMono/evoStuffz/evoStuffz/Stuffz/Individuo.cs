@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace evoStuffz
 {
-    class Individuo
+    public class Individuo
     {
 
         private Double? m_val;
         private Double[] m_value;
+
+		public Individuo(){}
         
         public void init(int size,int[] bound)
         {

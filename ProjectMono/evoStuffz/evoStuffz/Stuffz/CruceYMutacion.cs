@@ -41,10 +41,10 @@ namespace evoStuffz
 
 		public Individuo[] cruceI(Individuo i, Individuo j)
 		{
-			int index = (RNG.RandomNumber () * (i.getValue ().Length - 1)) + 1;
+			int index = (double) (RNG.RandomNumber () * (i.getValue ().Length - 1)) + 1;
 			Individuo[] ind = new Individuo[2];
 			ind [0] = i; ind [1] = j;
-			for(int k = index; k < i.getValue ().Length; i++){
+			for(int k = index; k < i.getValue ().Length; k++){
 				ind [0].setValueIndex (k, j.getValueIndex (k));
 				ind [1].setValueIndex (k, i.getValueIndex (k));
 			}

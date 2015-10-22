@@ -6,12 +6,12 @@ namespace evoStuffz
     class Hill
     {
         RNG rng;
-        Fn f;
+		Fn f;
 
         public Hill()
         {
             rng = new RNG();
-            f = new Fn();
+			f = new Fn();
         }
 
         public void calcHill(double[] init, double sigma)
@@ -26,10 +26,10 @@ namespace evoStuffz
                 cont++;
                 xy[0] = rng.gaussNumber(xk[0], sigma);
                 xy[1] = rng.gaussNumber(xk[1], sigma);
-                if (f.calcRestrict(xy) && (f.calcFitness(xy) < f.calcFitness(xk)))
-                {
-                    xk = xy;
-                    xy = new double[f.numVar()];
+                //if (f.calcRestrict(xy) && (f.calcFitness(xy) < f.calcFitness(xk)))
+                //{
+                //    xk = xy;
+                //    xy = new double[f.numVar()];
                 }
                 Console.WriteLine(cont + ":   " + xk[0] + "," + xk[1] + " - " + f.calcFitness(xk));
             }

@@ -42,11 +42,6 @@ namespace evoStuffz
             return 2;
         }
 
-        public double calcFitness(double[] x)
-        {
-            return 2;
-        }
-
         public bool calcRestrict(double[] x)
         {
             return false;

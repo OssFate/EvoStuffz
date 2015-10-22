@@ -8,6 +8,6 @@ namespace evoStuffz
 {
     interface AlgSelection
     {
-        
+		Poblacion getParents (Poblacion P);
     }
 }

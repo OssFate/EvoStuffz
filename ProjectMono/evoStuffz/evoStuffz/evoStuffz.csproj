@@ -35,7 +35,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Algorithms\Hill.cs" />
     <Compile Include="Algorithms\HillEvo.cs" />
     <Compile Include="Functions\Fn.cs" />
     <Compile Include="Interfaces\AlgGenetico.cs" />
@@ -47,6 +46,13 @@
     <Compile Include="Stuffz\Poblacion.cs" />
     <Compile Include="Stuffz\RNG.cs" />
     <Compile Include="Interfaces\Mutacion.cs" />
+    <Compile Include="Interfaces\AlgEvolutivo.cs" />
+    <Compile Include="Algorithms\AlgoritmoGenetico.cs" />
+    <Compile Include="Stuffz\IndividuoB.cs" />
+    <Compile Include="Functions\Auto.cs" />
+    <Compile Include="Stuffz\PoblacionB.cs" />
+    <Compile Include="Functions\profFunc.cs" />
+    <Compile Include="Stuffz\gaussMut.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

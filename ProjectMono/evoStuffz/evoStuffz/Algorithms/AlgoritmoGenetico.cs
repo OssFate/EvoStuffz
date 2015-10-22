@@ -1,0 +1,39 @@
+﻿using System;
+
+namespace evoStuffz
+{
+	public class AlgoritmoGenetico : AlgGenetico
+	{
+		private Poblacion m_pop;
+		private int m_tp;
+		private AlgSelection m_sel;
+		private CruceYMutacion m_crux;
+		private MahFunc m_func;
+
+		/*
+		public AlgoritmoGenetico(int tp, AlgSelection sel, CruceYMutacion crux, MahFunc func)
+		{
+			m_sel = sel;
+			m_crux = crux;
+			m_func = func;
+			m_tp = tp;
+			m_pop = new Poblacion();
+		}
+
+		public void AlgGen()
+		{
+
+			Poblacion Q = new Poblacion ();
+			Poblacion H = new Poblacion ();
+			m_pop.init (m_tp, 5, m_func.getBound ());
+
+			while(true){
+
+				Q = m_sel.getParents (m_pop);
+			}
+
+		}*/
+
+	}
+}
+

@@ -9,6 +9,7 @@ namespace evoStuffz
     interface MahFunc
     {
         double calcFitness(Individuo x);
+		int calcFitness (IndividuoB x);
         int[] getBound();
     }
 }
