@@ -43,25 +43,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Stuffz\CruceYMutacion.cs" />
-    <Compile Include="Algorithms\HillEvo.cs" />
-    <Compile Include="Functions\Fn.cs" />
-    <Compile Include="Algorithms\Hill.cs" />
-    <Compile Include="Interfaces\MahFunc.cs" />
-    <Compile Include="Interfaces\AlgGenetico.cs" />
-    <Compile Include="Interfaces\AlgSelection.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Source\Interfaces\Mutacion.cs" />
+    <Compile Include="Source\Stuffz\CruceYMutacion.cs" />
+    <Compile Include="Source\Algorithms\HillEvo.cs" />
+    <Compile Include="Source\Functions\Fn.cs" />
+    <Compile Include="Source\Interfaces\MahFunc.cs" />
+    <Compile Include="Source\Interfaces\AlgGenetico.cs" />
+    <Compile Include="Source\Interfaces\AlgSelection.cs" />
+    <Compile Include="Source\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Stuffz\Individuo.cs" />
-    <Compile Include="Stuffz\Poblacion.cs" />
-    <Compile Include="Stuffz\RNG.cs" />
-    <Compile Include="Stuffz\MahMath.cs" />
+    <Compile Include="Source\Stuffz\gaussMut.cs" />
+    <Compile Include="Source\Stuffz\Individuo.cs" />
+    <Compile Include="Source\Stuffz\Poblacion.cs" />
+    <Compile Include="Source\Stuffz\RNG.cs" />
+    <Compile Include="Source\Stuffz\MahMath.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Selection\" />
+    <Folder Include="Source\Selection\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
