@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace evoStuffz
 {
@@ -26,30 +22,6 @@ namespace evoStuffz
         {
             int[] b = { 0, 100 };
             return b;
-        }
-
-        /**
-        Deprecated stuffz
-        */
-        public double[] init()
-        {
-            double[] lol = { 2, 1 };
-            return lol;
-        }
-
-        public int numVar()
-        {
-            return 2;
-        }
-
-        public double calcFitness(double[] x)
-        {
-            return 2;
-        }
-
-        public bool calcRestrict(double[] x)
-        {
-            return false;
         }
     }
 }

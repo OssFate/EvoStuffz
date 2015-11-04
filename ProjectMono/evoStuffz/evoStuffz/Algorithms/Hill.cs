@@ -6,12 +6,12 @@ namespace evoStuffz
     class Hill
     {
         RNG rng;
-		Fn f;
+        Fn f;
 
         public Hill()
         {
             rng = new RNG();
-			f = new Fn();
+            f = new Fn();
         }
 
         public void calcHill(double[] init, double sigma)
@@ -60,7 +60,7 @@ namespace evoStuffz
                     if (g / gmax != 0.2)
                     {
                         if (g / gmax < 0.2) sigma = sigma * alpha;
-                        else sigma = sigma / alpha; 
+                        else sigma = sigma / alpha;
                     }
                     gcont = 0;
                     g = 0;

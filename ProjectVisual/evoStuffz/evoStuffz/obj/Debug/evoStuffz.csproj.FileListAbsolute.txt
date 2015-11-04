@@ -4,3 +4,9 @@ C:\Users\Oswald\documents\visual studio 2015\Projects\evoStuffz\evoStuffz\bin\De
 C:\Users\Oswald\documents\visual studio 2015\Projects\evoStuffz\evoStuffz\obj\Debug\evoStuffz.csprojResolveAssemblyReference.cache
 C:\Users\Oswald\documents\visual studio 2015\Projects\evoStuffz\evoStuffz\obj\Debug\evoStuffz.exe
 C:\Users\Oswald\documents\visual studio 2015\Projects\evoStuffz\evoStuffz\obj\Debug\evoStuffz.pdb
+C:\Users\Oswald\Documents\GitHub\EvoStuffz\ProjectVisual\evoStuffz\evoStuffz\bin\Debug\evoStuffz.exe.config
+C:\Users\Oswald\Documents\GitHub\EvoStuffz\ProjectVisual\evoStuffz\evoStuffz\obj\Debug\evoStuffz.exe
+C:\Users\Oswald\Documents\GitHub\EvoStuffz\ProjectVisual\evoStuffz\evoStuffz\obj\Debug\evoStuffz.pdb
+C:\Users\Oswald\Documents\GitHub\EvoStuffz\ProjectVisual\evoStuffz\evoStuffz\bin\Debug\evoStuffz.exe
+C:\Users\Oswald\Documents\GitHub\EvoStuffz\ProjectVisual\evoStuffz\evoStuffz\bin\Debug\evoStuffz.pdb
+C:\Users\Oswald\Documents\GitHub\EvoStuffz\ProjectVisual\evoStuffz\evoStuffz\obj\Debug\evoStuffz.csprojResolveAssemblyReference.cache
