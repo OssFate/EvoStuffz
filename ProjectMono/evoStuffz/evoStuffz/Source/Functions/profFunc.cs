@@ -30,6 +30,10 @@ namespace evoStuffz
 			return value;
 		}
 
+		public int calcFitness (IndividuoB x) {
+			return 0;
+		}
+
 		public int[] getBound(){
 			int[] b = { -100, 100 };
 			return b;

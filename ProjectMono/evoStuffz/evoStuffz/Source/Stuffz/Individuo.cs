@@ -11,8 +11,15 @@ namespace evoStuffz
 
         private Double? m_val;
         private Double[] m_value;
+		private double m_fit;
 
 		public Individuo(){}
+
+		public Individuo(int size, MahFunc func)
+		{
+			init (size, func.getBound ());
+			m_fit = func.calcFitness (this);
+		}
         
         public void init(int size,int[] bound)
         {
@@ -65,6 +72,11 @@ namespace evoStuffz
 
 		public void setValueIndex(int i, double _value){
 			m_value [i] = _value;
+		}
+
+		public double getFit()
+		{
+			return m_fit;
 		}
 
         public Double[] getValue()

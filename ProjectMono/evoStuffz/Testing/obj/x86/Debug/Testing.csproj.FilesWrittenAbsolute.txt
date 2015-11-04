@@ -1,0 +1,5 @@
+/home/oswald/Documents/GitProjects/EvoStuffz/ProjectMono/evoStuffz/Testing/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/oswald/Documents/GitProjects/EvoStuffz/ProjectMono/evoStuffz/Testing/bin/Debug/Testing.exe.mdb
+/home/oswald/Documents/GitProjects/EvoStuffz/ProjectMono/evoStuffz/Testing/bin/Debug/Testing.exe
+/home/oswald/Documents/GitProjects/EvoStuffz/ProjectMono/evoStuffz/Testing/obj/x86/Debug/Testing.exe
+/home/oswald/Documents/GitProjects/EvoStuffz/ProjectMono/evoStuffz/Testing/obj/x86/Debug/Testing.exe.mdb

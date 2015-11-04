@@ -1,33 +1,14 @@
 ﻿<Properties StartupItem="evoStuffz/evoStuffz.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="evoStuffz/Stuffz/IndividuoB.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="evoStuffz/Source/Algorithms/HillEvo.cs">
     <Files>
-      <File FileName="evoStuffz/Functions/profFunc.cs" Line="13" Column="40" />
-      <File FileName="evoStuffz/Functions/Fn.cs" Line="9" Column="11" />
-      <File FileName="evoStuffz/Program.cs" Line="10" Column="23" />
-      <File FileName="evoStuffz/Algorithms/AlgoritmoGenetico.cs" Line="35" Column="6" />
-      <File FileName="evoStuffz/Stuffz/Individuo.cs" Line="9" Column="12" />
-      <File FileName="evoStuffz/Algorithms/HillEvo.cs" Line="24" Column="30" />
-      <File FileName="evoStuffz/Stuffz/CruceYMutacion.cs" Line="25" Column="38" />
-      <File FileName="evoStuffz/Interfaces/MahFunc.cs" Line="1" Column="1" />
-      <File FileName="evoStuffz/Stuffz/IndividuoB.cs" Line="45" Column="39" />
+      <File FileName="evoStuffz/Source/Program.cs" Line="15" Column="35" />
+      <File FileName="evoStuffz/Source/Algorithms/HillEvo.cs" Line="34" Column="45" />
+      <File FileName="evoStuffz/Source/Stuffz/Poblacion.cs" Line="62" Column="5" />
+      <File FileName="evoStuffz/Source/Stuffz/Individuo.cs" Line="15" Column="3" />
+      <File FileName="evoStuffz/Source/Seleccion/Torneo.cs" Line="13" Column="43" />
+      <File FileName="evoStuffz/Source/Stuffz/RNG.cs" Line="43" Column="10" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="evoStuffz" expanded="True">
-            <Node name="evoStuffz" expanded="True">
-              <Node name="Algorithms" expanded="True" />
-              <Node name="Functions" expanded="True" />
-              <Node name="Interfaces" expanded="True" />
-              <Node name="Stuffz" expanded="True">
-                <Node name="IndividuoB.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

@@ -9,12 +9,12 @@ namespace evoStuffz
 		{
 			MahFunc m_fn = new profFunc ();
 			AlgGenetico auto;
-			AlgSelection m_sel;
-			CruceYMutacion x = new CruceYMutacion(0.3, 0.1, new gaussMut(2));
+			AlgSelection m_sel = new Torneo ();
+			CruceYMutacion x = new CruceYMutacion(0.8, 0.8, new gaussMut(2));
 
-			auto = new HillEvo (5, x, m_fn);
+			auto = new HillEvo (100, m_sel, x, m_fn);
 
-			auto.AlgGen (100);
+			auto.AlgGen (1000);
 
 		}
 		

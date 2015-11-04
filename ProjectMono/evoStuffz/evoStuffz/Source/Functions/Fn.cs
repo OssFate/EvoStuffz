@@ -28,6 +28,10 @@ namespace evoStuffz
             return b;
         }
 
+		public int calcFitness (IndividuoB x) {
+			return 0;
+		}
+
         /**
         Deprecated stuffz
         */

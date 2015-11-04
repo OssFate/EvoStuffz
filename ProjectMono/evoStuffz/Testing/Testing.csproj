@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{0AEF6684-63A9-4C05-88ED-1F48F11FD4D8}</ProjectGuid>
+    <ProjectGuid>{5195F161-B048-4A18-9CC2-7012533AE711}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>evoStuffz</RootNamespace>
-    <AssemblyName>evoStuffz</AssemblyName>
+    <RootNamespace>Testing</RootNamespace>
+    <AssemblyName>Testing</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -33,31 +33,8 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Source\Algorithms\AlgoritmoGenetico.cs" />
-    <Compile Include="Source\Algorithms\HillEvo.cs" />
-    <Compile Include="Source\Functions\Auto.cs" />
-    <Compile Include="Source\Functions\Fn.cs" />
-    <Compile Include="Source\Functions\profFunc.cs" />
-    <Compile Include="Source\Interfaces\AlgEvolutivo.cs" />
-    <Compile Include="Source\Interfaces\AlgGenetico.cs" />
-    <Compile Include="Source\Interfaces\AlgSelection.cs" />
-    <Compile Include="Source\Interfaces\MahFunc.cs" />
-    <Compile Include="Source\Interfaces\Mutacion.cs" />
-    <Compile Include="Source\Stuffz\CruceYMutacion.cs" />
-    <Compile Include="Source\Stuffz\gaussMut.cs" />
-    <Compile Include="Source\Stuffz\Individuo.cs" />
-    <Compile Include="Source\Stuffz\IndividuoB.cs" />
-    <Compile Include="Source\Stuffz\MahMath.cs" />
-    <Compile Include="Source\Stuffz\Poblacion.cs" />
-    <Compile Include="Source\Stuffz\PoblacionB.cs" />
-    <Compile Include="Source\Stuffz\RNG.cs" />
-    <Compile Include="Source\Program.cs" />
-    <Compile Include="Source\Seleccion\Torneo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-    <Folder Include="Source\" />
-    <Folder Include="Source\Seleccion\" />
-  </ItemGroup>
 </Project>
