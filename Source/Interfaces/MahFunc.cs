@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace evoStuffz
 {
-    interface MahFunc
+    public interface MahFunc
     {
         double calcFitness(Individuo x);
+		int calcFitness (IndividuoB x);
         int[] getBound();
     }
 }
