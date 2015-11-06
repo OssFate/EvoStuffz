@@ -26,10 +26,10 @@ namespace evoStuffz
                 cont++;
                 xy[0] = rng.gaussNumber(xk[0], sigma);
                 xy[1] = rng.gaussNumber(xk[1], sigma);
-                if (f.calcRestrict(xy) && (f.calcFitness(xy) < f.calcFitness(xk)))
-                {
-                    xk = xy;
-                    xy = new double[f.numVar()];
+                //if (f.calcRestrict(xy) && (f.calcFitness(xy) < f.calcFitness(xk)))
+                //{
+                //    xk = xy;
+                //    xy = new double[f.numVar()];
                 }
                 Console.WriteLine(cont + ":   " + xk[0] + "," + xk[1] + " - " + f.calcFitness(xk));
             }
@@ -60,7 +60,7 @@ namespace evoStuffz
                     if (g / gmax != 0.2)
                     {
                         if (g / gmax < 0.2) sigma = sigma * alpha;
-                        else sigma = sigma / alpha; 
+                        else sigma = sigma / alpha;
                     }
                     gcont = 0;
                     g = 0;

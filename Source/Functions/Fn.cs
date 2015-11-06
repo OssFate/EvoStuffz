@@ -28,6 +28,10 @@ namespace evoStuffz
             return b;
         }
 
+		public int calcFitness (IndividuoB x) {
+			return 0;
+		}
+
         /**
         Deprecated stuffz
         */
@@ -38,11 +42,6 @@ namespace evoStuffz
         }
 
         public int numVar()
-        {
-            return 2;
-        }
-
-        public double calcFitness(double[] x)
         {
             return 2;
         }

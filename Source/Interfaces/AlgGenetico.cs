@@ -8,6 +8,6 @@ namespace evoStuffz
 {
     interface AlgGenetico
     {
-
+		void AlgGen (int iter);
     }
 }

@@ -43,7 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Source\Algorithms\AlgoritmoGenetico.cs" />
+    <Compile Include="Source\Functions\Auto.cs" />
+    <Compile Include="Source\Functions\profFunc.cs" />
     <Compile Include="Source\Interfaces\Mutacion.cs" />
+    <Compile Include="Source\Selection\Torneo.cs" />
     <Compile Include="Source\Stuffz\CruceYMutacion.cs" />
     <Compile Include="Source\Algorithms\HillEvo.cs" />
     <Compile Include="Source\Functions\Fn.cs" />
@@ -54,16 +58,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Source\Stuffz\gaussMut.cs" />
     <Compile Include="Source\Stuffz\Individuo.cs" />
+    <Compile Include="Source\Stuffz\IndividuoB.cs" />
     <Compile Include="Source\Stuffz\Poblacion.cs" />
+    <Compile Include="Source\Stuffz\PoblacionB.cs" />
     <Compile Include="Source\Stuffz\RNG.cs" />
     <Compile Include="Source\Stuffz\MahMath.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Source\Selection\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
