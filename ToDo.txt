@@ -1,9 +1,18 @@
 //To Do List
 
 - Add functions
+	- Need to add the final project
+	- Need to add the Web Page contest project
+	- Need to add all the first functions
+	- Gotta add the interprete
+
 - Add mutation with gaussian and powerlaw
+	- Added gaussian Mutation, needs powerlaw now
 - Add Selection Algorithms
+	- Added Tourney
 - Create usable HillEvo
+	- Needs selection over children.
 - Fix all inconsistencies
 
 - Everything now for bits
+	- Not necessary but awesome

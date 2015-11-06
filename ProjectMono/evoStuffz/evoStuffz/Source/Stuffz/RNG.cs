@@ -40,6 +40,6 @@ namespace evoStuffz
             { // synchronize
                 return random.NextDouble();
             }
-        }
+         }
     }
 }

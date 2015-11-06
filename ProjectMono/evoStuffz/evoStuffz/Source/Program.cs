@@ -7,10 +7,10 @@ namespace evoStuffz
 		
 		static void Main(String[] args)
 		{
-			MahFunc m_fn = new profFunc ();
+			MahFunc m_fn = new FSchwefel();
 			AlgGenetico auto;
 			AlgSelection m_sel = new Torneo ();
-			CruceYMutacion x = new CruceYMutacion(0.8, 0.8, new gaussMut(2));
+			CruceYMutacion x = new CruceYMutacion(0.5, 0.5, new gaussMut(20));
 
 			auto = new HillEvo (100, m_sel, x, m_fn);
 
