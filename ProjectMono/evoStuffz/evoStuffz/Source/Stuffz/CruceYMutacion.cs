@@ -22,20 +22,24 @@ namespace evoStuffz
         public Poblacion cruceP(Poblacion p)
         {
 			Poblacion H = new Poblacion(p.TamPob ());
-			List<Individuo> ind = new List<Individuo>(2);
+			//Console.WriteLine ("Cruce ------>>>> TAMAÑO DE LA POBLACION!!!  -->  " + p.TamPob() );
+			List<Individuo> ind;
 
 			for(int i = 0; i < p.TamPob (); i+=2)
 			{
+				ind = new List<Individuo> (2);
 				if (RNG.RandomNumber () < pCruce) {
 					ind = cruceI (p.getIndi (i), p.getIndi (i + 1));
 				} else {
 					ind.Add (p.getIndi (i));
 					ind.Add (p.getIndi (i + 1));
 				}
+				//Console.WriteLine ("---->> " + ind.Count);
 				mutacion (ind);
 				H.addIndis (ind);
+				//Console.WriteLine (i + " ---->>>>>  " + p.TamPob() + " -----> " + H.TamPob());
+ 				//Console.WriteLine ("CruceFinal ------>>>> TAMAÑO DE LA POBLACION!!!  -->  " + H.TamPob() );
 			}
-
             return H;
         }
 
@@ -63,10 +67,10 @@ namespace evoStuffz
 			} else {
 				for (int i = 0; i < indi [0].getValue ().Length; i++) {
 					if (RNG.RandomNumber () < pMuta) {
-						mut.doMutis (indi [0].getValueIndex (i));
+						indi[0].setValueIndex(i , mut.doMutis (indi [0].getValueIndex (i)));
 					}
 					if (RNG.RandomNumber () < pMuta) {
-						mut.doMutis (indi [1].getValueIndex (i));
+						indi[1].setValueIndex(i, mut.doMutis (indi [1].getValueIndex (i)));
 					}
 				}
 			}

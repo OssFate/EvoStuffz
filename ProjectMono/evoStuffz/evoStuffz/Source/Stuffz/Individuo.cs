@@ -18,7 +18,6 @@ namespace evoStuffz
 		public Individuo(int size, MahFunc func)
 		{
 			init (size, func.getBound ());
-			m_fit = func.calcFitness (this);
 		}
         
         public void init(int size,int[] bound)
@@ -36,6 +35,7 @@ namespace evoStuffz
                 {
                     //m_value[i] = new Double();
                     m_value[i] = (RNG.RandomNumber() * b) + bound[0];
+					//Console.WriteLine (m_value [i]);
                 }
             }
         }
@@ -54,7 +54,7 @@ namespace evoStuffz
 
         private string valueToString()
         {
-            string ret = "[ ";
+			string ret = getFit() + " [ ";
             for(int i = 0; i < m_value.Length; i++)
             {
                 ret += m_value[i];
@@ -72,6 +72,11 @@ namespace evoStuffz
 
 		public void setValueIndex(int i, double _value){
 			m_value [i] = _value;
+		}
+
+		public void setFit(MahFunc func)
+		{
+			m_fit = func.calcFitness (this);
 		}
 
 		public double getFit()

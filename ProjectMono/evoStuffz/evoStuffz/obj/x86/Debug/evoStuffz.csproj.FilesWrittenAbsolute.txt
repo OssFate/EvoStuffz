@@ -3,3 +3,8 @@
 /home/oswald/Documents/GitProjects/EvoStuffz/ProjectMono/evoStuffz/evoStuffz/bin/Debug/evoStuffz.exe
 /home/oswald/Documents/GitProjects/EvoStuffz/ProjectMono/evoStuffz/evoStuffz/obj/x86/Debug/evoStuffz.exe
 /home/oswald/Documents/GitProjects/EvoStuffz/ProjectMono/evoStuffz/evoStuffz/obj/x86/Debug/evoStuffz.exe.mdb
+/home/oswald/Documents/GitHub Projects/EvoStuffz/ProjectMono/evoStuffz/evoStuffz/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/oswald/Documents/GitHub Projects/EvoStuffz/ProjectMono/evoStuffz/evoStuffz/bin/Debug/evoStuffz.exe.mdb
+/home/oswald/Documents/GitHub Projects/EvoStuffz/ProjectMono/evoStuffz/evoStuffz/bin/Debug/evoStuffz.exe
+/home/oswald/Documents/GitHub Projects/EvoStuffz/ProjectMono/evoStuffz/evoStuffz/obj/x86/Debug/evoStuffz.exe
+/home/oswald/Documents/GitHub Projects/EvoStuffz/ProjectMono/evoStuffz/evoStuffz/obj/x86/Debug/evoStuffz.exe.mdb

@@ -9,9 +9,11 @@ namespace evoStuffz
 		//private Individuo[] m_ind;
 		private List<Individuo> m_ind;
 
-		private double m_opt = 10000000;
+		private double m_min;
+		private double m_max;
+		//private double m_med;
 		private double m_mean;
-		private double m_des;
+		private double m_std;
 
 		public Poblacion() {}
 
@@ -49,19 +51,37 @@ namespace evoStuffz
 			m_ind.Add (ind);
 		}
 
+		public void setFits(MahFunc func)
+		{
+			for (int i = 0; i < m_ind.Count; i++) {
+				m_ind [i].setFit (func);
+			}
+		}
+
 		public void setStats()
 		{
+			m_min = m_ind [0].getFit ();
+			m_max = m_ind [0].getFit ();
+
 			double fit;
 			for (int i = 0; i < m_ind.Count; i++) {
 				fit = m_ind [i].getFit ();
 				// Media
 				m_mean += fit;
-				// Optimo
-				if (fit < m_opt)
-					m_opt = fit;
+				// Optimo (minimo)
+				if (fit < m_min)
+					m_min = fit;
+				// Max
+				if (fit > m_max)
+					m_max = fit;
 			}
 			m_mean /= m_ind.Capacity;
 			//Desviacion
+			for (int i = 0; i < m_ind.Count; i++) {
+				fit = m_ind [i].getFit ();
+				m_std += Math.Pow (fit - m_mean, 2);
+			}
+			m_std = Math.Sqrt (m_std / m_ind.Capacity);
 		}
 
 		public void showPPL()
@@ -76,7 +96,7 @@ namespace evoStuffz
 		public void showRun()
 		{
 			//Console.WriteLine (m_ind.Count + " Total of ppl here:");
-			Console.WriteLine ("Best: " + m_opt + " Media: " + m_mean);
+			Console.WriteLine ("Best: " + m_min + " Worst: " + m_max + " Media: " + m_mean + " Desviacion: " + m_std);
 		}
     }
 }

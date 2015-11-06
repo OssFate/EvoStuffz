@@ -9,16 +9,13 @@ namespace evoStuffz
 		public Poblacion doSel(Poblacion pob)
 		{
 			Poblacion _pob = new Poblacion (pob.TamPob ());
-			List<Individuo> _ind;
+			List<Individuo> _ind = new List<Individuo> (4);
 			for (int i = 0; i < pob.TamPob (); i++) {
-				_ind = new List<Individuo> (4);
 				for (int j = 0; j < 4; j++) {
-					_ind.Add (pob.getIndi ((int) (RNG.RandomNumber () * pob.TamPob ())));
-					//Console.WriteLine ((int) (RNG.RandomNumber() * pob.TamPob()));
+					_ind.Add (pob.getIndi ((int)RNG.RandomNumber () * pob.TamPob ()));
 				}
 				_pob.addIndi (doTurney (_ind));
 			}
-			//Console.WriteLine ("Torneo ------>>>> TAMAÑO DE LA POBLACION!!!  -->  " + _pob.TamPob() );
 			return _pob;
 		}
 
@@ -47,18 +44,8 @@ namespace evoStuffz
 
 		private double getChance(Individuo a, Individuo b)
 		{
-			double c;
-			if (a.getFit () < 0 || b.getFit() < 0) {
-				if (a.getFit () < b.getFit ()) {
-					c = 2 * Math.Abs (a.getFit ()) + Math.Abs (b.getFit ());
-				} else {
-					c = 2 * Math.Abs (b.getFit ()) + Math.Abs (a.getFit ());
-					return ((Math.Abs (a.getFit ()) + Math.Abs (b.getFit ())) / c);
-				}
-			} else {
-				c = a.getFit () + b.getFit ();
-			}
-			return (Math.Abs (a.getFit ()) / c);
+			double c = a.getFit () + b.getFit ();
+			return a.getFit () / c;
 		}
 
 	}

@@ -10,45 +10,29 @@ namespace evoStuffz
     {
         public double calcFitness(Individuo x)
         {
-            return Math.Pow(x.getValue()[0], 2) - Math.Pow(x.getValue()[1], 2);
+			double sum = 0;
+			for (int i = 0; i < x.getValue ().Length; i++) {
+				sum += Math.Pow (x.getValueIndex (i), 2);
+			}
+			return sum;
         }
         
         public bool calcRestrict(Individuo x)
         {
-            bool r1 = (-1*x.getValue()[0] <= 0);
-            bool r2 = (-1*x.getValue()[1] <= 0);
-            bool r3 = (x.getValue()[0] + x.getValue()[1] - 4 <= 0);
+			bool r1 = (-1 * x.getValueIndex (0) <= 0);
+			bool r2 = (-1 * x.getValueIndex (1) <= 0);
+			bool r3 = (x.getValueIndex (0) + x.getValueIndex (1) - 4 <= 0);
 
             return (r1 && r2 && r3);
         }
 
         public int[] getBound()
         {
-            int[] b = { 0, 100 };
-            return b;
+			return new int[] {0, 100};
         }
 
 		public int calcFitness (IndividuoB x) {
 			return 0;
 		}
-
-        /**
-        Deprecated stuffz
-        */
-        public double[] init()
-        {
-            double[] lol = { 2, 1 };
-            return lol;
-        }
-
-        public int numVar()
-        {
-            return 2;
-        }
-
-        public bool calcRestrict(double[] x)
-        {
-            return false;
-        }
     }
 }
