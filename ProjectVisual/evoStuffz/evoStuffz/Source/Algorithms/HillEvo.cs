@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace evoStuffz
 {
@@ -31,22 +28,23 @@ namespace evoStuffz
 			Poblacion H = new Poblacion ();
 			m_pop.init (m_tp, 5, m_func);
 
-			int lol = DateTime.Now.TimeOfDay.Seconds;
+            Stopwatch sw = new Stopwatch();
 
 			while(i < iter){
-				Console.WriteLine (TimeSpan.FromSeconds ((double) lol));
+				//Console.WriteLine (TimeSpan.FromSeconds ((double) lol));
 				Q = m_sel.doSel (m_pop);
-				Console.WriteLine (TimeSpan.FromSeconds ((double) lol));
+				//Console.WriteLine (TimeSpan.FromSeconds ((double) lol));
 				H = m_crux.cruceP (Q);
-				Console.WriteLine (TimeSpan.FromSeconds ((double) lol));
+				//Console.WriteLine (TimeSpan.FromSeconds ((double) lol));
 				m_pop = H;
-				Console.WriteLine (TimeSpan.FromSeconds ((double) lol));
+				//Console.WriteLine (TimeSpan.FromSeconds ((double) lol));
 
 				m_pop.setStats ();
 				m_pop.showRun ();
 
 				i++;
 			}
+            Console.WriteLine(sw.Elapsed);
 		}
 
     }

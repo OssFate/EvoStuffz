@@ -22,10 +22,11 @@ namespace evoStuffz
         public Poblacion cruceP(Poblacion p)
         {
 			Poblacion H = new Poblacion(p.TamPob ());
-			List<Individuo> ind = new List<Individuo>(2);
+			List<Individuo> ind;
 
 			for(int i = 0; i < p.TamPob (); i+=2)
 			{
+                ind = new List<Individuo>(2);
 				if (RNG.RandomNumber () < pCruce) {
 					ind = cruceI (p.getIndi (i), p.getIndi (i + 1));
 				} else {
