@@ -43,8 +43,8 @@ namespace evoStuffz
 
 				m_pop.setFits (m_func);
 				m_pop.setStats ();
-				//m_pop.showPPL ();
-				m_pop.showRun ();
+				m_pop.showPPL ();
+				//m_pop.showRun ();
 
 				i++;
 			}

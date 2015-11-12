@@ -55,6 +55,7 @@
     <Compile Include="Source\Program.cs" />
     <Compile Include="Source\Seleccion\Torneo.cs" />
     <Compile Include="Source\Functions\FSchwefel.cs" />
+    <Compile Include="Source\Seleccion\HillSel.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

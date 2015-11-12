@@ -61,6 +61,10 @@ namespace evoStuffz
 			return (Math.Abs (a.getFit ()) / c);
 		}
 
+		public Poblacion doSel (Poblacion pA, Poblacion pB)
+		{
+			return new Poblacion ();
+		}
 	}
 }
 

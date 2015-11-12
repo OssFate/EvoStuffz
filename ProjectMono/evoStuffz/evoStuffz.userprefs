@@ -1,48 +1,14 @@
 ﻿<Properties StartupItem="evoStuffz/evoStuffz.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="evoStuffz/Source/Stuffz/CruceYMutacion.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="evoStuffz/Source/Seleccion/Torneo.cs">
     <Files>
-      <File FileName="evoStuffz/Source/Program.cs" Line="15" Column="35" />
-      <File FileName="evoStuffz/Source/Algorithms/HillEvo.cs" Line="34" Column="45" />
-      <File FileName="evoStuffz/Source/Stuffz/Individuo.cs" Line="15" Column="3" />
-      <File FileName="evoStuffz/Source/Seleccion/Torneo.cs" Line="13" Column="43" />
-      <File FileName="evoStuffz/Source/Stuffz/RNG.cs" Line="27" Column="29" />
-      <File FileName="evoStuffz/Source/Functions/profFunc.cs" Line="1" Column="1" />
-      <File FileName="evoStuffz/Source/Algorithms/AlgoritmoGenetico.cs" Line="1" Column="1" />
-      <File FileName="evoStuffz/Source/Stuffz/gaussMut.cs" Line="1" Column="1" />
-      <File FileName="evoStuffz/Source/Stuffz/CruceYMutacion.cs" Line="12" Column="25" />
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="evoStuffz/Source/Program.cs">
-    <Files>
-      <File FileName="evoStuffz/Source/Program.cs" Line="10" Column="34" />
-      <File FileName="evoStuffz/Source/Algorithms/HillEvo.cs" Line="47" Column="5" />
-      <File FileName="evoStuffz/Source/Stuffz/Poblacion.cs" Line="57" Column="29" />
-      <File FileName="evoStuffz/Source/Stuffz/Individuo.cs" Line="78" Column="4" />
+      <File FileName="evoStuffz/Source/Seleccion/HillSel.cs" Line="30" Column="34" />
       <File FileName="evoStuffz/Source/Seleccion/Torneo.cs" Line="14" Column="36" />
-      <File FileName="evoStuffz/Source/Stuffz/RNG.cs" Line="43" Column="1" />
-      <File FileName="evoStuffz/Source/Functions/FSchwefel.cs" Line="9" Column="18" />
-      <File FileName="evoStuffz/Source/Stuffz/CruceYMutacion.cs" Line="52" Column="52" />
->>>>>>> ac2174255b675378f1dc030d7650808582d2685b
+      <File FileName="evoStuffz/Source/Functions/Fn.cs" Line="1" Column="1" />
+      <File FileName="evoStuffz/Source/Algorithms/HillEvo.cs" Line="22" Column="30" />
+      <File FileName="evoStuffz/Source/Program.cs" Line="10" Column="25" />
+      <File FileName="evoStuffz/Source/Stuffz/Poblacion.cs" Line="93" Column="5" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="evoStuffz" expanded="True">
-            <Node name="evoStuffz" expanded="True">
-              <Node name="Source" expanded="True">
-                <Node name="Algorithms" expanded="True" />
-                <Node name="Functions" expanded="True" />
-                <Node name="Seleccion" expanded="True" />
-                <Node name="Stuffz" expanded="True">
-                  <Node name="CruceYMutacion.cs" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
